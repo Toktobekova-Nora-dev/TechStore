@@ -1,0 +1,54 @@
+.firestSession {
+  width: 100%;
+  background: #0f182d;
+  background: linear-gradient(
+    90deg,
+    rgba(15, 24, 45, 1) 0%,
+    rgba(29, 63, 172, 1) 100%
+  );
+  height: 437px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .firest {
+    display: flex;
+    justify-content: space-around;
+    .firstLeft {
+      display: flex;
+      justify-content: baseline;
+      flex-direction: column;
+      gap: 20px;
+      h1 {
+        color: white;
+        font-size: 40px;
+      }
+      p {
+        color: rgba(255, 255, 255, 0.443);
+      }
+      .child {
+        display: flex;
+        gap: 10px;
+        .firetChild {
+          background-color: #0ea5e9;
+        }
+        .secondChild {
+          background-color: #2c3b5c;
+          border: 2px solid white;
+        }
+        button {
+          color: white;
+          border: none;
+          width: 128px;
+          height: 54px;
+          border-radius: 5px;
+        }
+      }
+    }
+    img {
+      width: 100%;
+      max-width: 464px;
+      height: 309px;
+      border-radius: 10px;
+    }
+  }
+}
