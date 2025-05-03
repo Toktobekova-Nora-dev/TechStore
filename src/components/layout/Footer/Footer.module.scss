@@ -1,0 +1,23 @@
+.footerMain {
+  background: #0f172a;
+  .footerMaster {
+    display: flex;
+    padding: 30px;
+    h1 {
+      color: #ffff;
+    }
+    p {
+      color: #d1d5dbaa;
+      margin-top: 10px;
+    }
+    .flex1 {
+      flex: 1;
+    }
+    .flex2 {
+      flex: 1;
+    }
+    .flex3 {
+      flex: 1;
+    }
+  }
+}
